@@ -1,0 +1,44 @@
+{
+  "name": "stopstalk-mern",
+  "version": "1.0.0",
+  "description": "Clone of stopstalk Code in MERN Stack https://github.com/stopstalk/stopstalk-deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushikkumarbz/stopstalk-mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushikkumarbz/stopstalk-mern/issues"
+  },
+  "homepage": "https://github.com/kaushikkumarbz/stopstalk-mern#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "google-auth-library": "^7.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "react-modal": "^3.14.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
